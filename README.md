@@ -50,3 +50,23 @@ All content is managed in:
 - **about**: Philosophy text.
 - **faq**: Questions and answers.
 - **checkout/success**: Text for the ordering flow.
+
+## Deployment (Render)
+To deploy this website on Render:
+1. Log in to [Render](https://render.com).
+2. Click **New +** and select **Static Site**.
+3. Connect your GitHub account and select the **PortoPorter-Web** repository.
+4. Use the following settings:
+   - **Build Command**: `npm run build`
+   - **Publish Directory**: `out` (Note: This project is configured for static export or standalone build. If using `next build`, the output is usually in `.next`. For Render Static Site, ensure you have `output: 'export'` in `next.config.ts`).
+
+*Note: Since this is a standard Next.js app, it is recommended to deploy as a **Web Service** if you want to use Next.js features like dynamic routing or ISR, or as a **Static Site** if you export it.*
+
+### Deployment as Web Service (Recommended for Next.js):
+1. Click **New +** and select **Web Service**.
+2. Connect your GitHub account and select the **PortoPorter-Web** repository.
+3. Use the following settings:
+   - **Environment**: `Node`
+   - **Build Command**: `npm install && npm run build`
+   - **Start Command**: `npm run start`
+4. Select the **Free** plan.
