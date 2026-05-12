@@ -4,6 +4,7 @@ import "./globals.css";
 import WhatsAppButton from '@/components/WhatsAppButton';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
+import content from '@/config/content';
 
 const inter = Inter({
   variable: "--font-inter",
@@ -18,34 +19,34 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "Porto Porter | Modern Concierge",
-    template: "%s | Porto Porter",
+    default: content.metadata.home.title,
+    template: `%s | ${content.site.name}`,
   },
-  description: "The best of Porto, hand-picked artisan crafts delivered to your Airbnb or Hotel. Authentic gifts for luxury travelers.",
-  keywords: ["authentic Porto gifts", "Porto concierge delivery", "artisan crafts Porto", "luxury gift bundles Porto", "Porto souvenirs", "flight-friendly gifts"],
-  authors: [{ name: "Porto Porter" }],
-  creator: "Porto Porter",
+  description: content.metadata.home.description,
+  keywords: content.site.keywords,
+  authors: [{ name: content.site.name }],
+  creator: content.site.name,
   metadataBase: new URL("https://portoporter.com"),
   openGraph: {
     type: "website",
     locale: "en_PT",
     url: "https://portoporter.com",
-    siteName: "Porto Porter",
-    title: "Porto Porter | Modern Concierge",
-    description: "Hand-picked Porto artisan crafts delivered to your accommodation. No tourist traps. Just authentic craft.",
+    siteName: content.site.name,
+    title: content.metadata.home.title,
+    description: content.metadata.home.description,
     images: [
       {
         url: "/assets/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Porto Porter - Premium Artisan Gifts",
+        alt: `${content.site.name} - Premium Artisan Gifts`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Porto Porter | Modern Concierge",
-    description: "Hand-picked Porto artisan crafts delivered to your accommodation.",
+    title: content.metadata.home.title,
+    description: content.metadata.home.description,
     images: ["/assets/images/og-image.jpg"],
   },
   alternates: {

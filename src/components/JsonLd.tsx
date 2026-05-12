@@ -1,14 +1,17 @@
 import React from 'react';
+import content from '@/config/content';
 
 const JsonLd = () => {
+  const { site, metadata } = content;
+  
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Porto Porter",
-    "image": "https://portoporter.com/assets/images/logo.jpeg",
+    "name": site.name,
+    "image": `https://portoporter.com${site.logo}`,
     "@id": "https://portoporter.com",
     "url": "https://portoporter.com",
-    "telephone": "+351000000000",
+    "telephone": site.whatsappNumber,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Porto City Center",
@@ -38,7 +41,7 @@ const JsonLd = () => {
     "sameAs": [
       "https://www.instagram.com/portoporter"
     ],
-    "description": "Premium concierge service in Porto delivering hand-picked artisan crafts and gift bundles directly to your accommodation."
+    "description": metadata.home.description
   };
 
   return (

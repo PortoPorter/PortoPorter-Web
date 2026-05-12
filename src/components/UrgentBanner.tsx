@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { Clock } from 'lucide-react';
+import content from '@/config/content';
 
 export default function UrgentBanner() {
   const [mounted, setMounted] = useState(false);
@@ -15,7 +16,7 @@ export default function UrgentBanner() {
   const now = new Date();
   const currentHour = now.getHours();
   
-  let message = "Order by 6:00 PM for delivery tomorrow after 2:00 PM.";
+  let message = content.home.urgentBanner;
   
   if (currentHour >= 18) {
     message = "Next delivery available after 2:00 PM the day after tomorrow.";

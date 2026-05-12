@@ -12,6 +12,7 @@
   --color-foreground: var(--text-charcoal);
   --color-porto-blue: var(--porto-blue);
   --color-terracotta: var(--burnt-terracotta);
+  --color-cork-cream: var(--cork-cream);
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-cormorant), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }

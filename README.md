@@ -29,8 +29,24 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Content Management
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can easily update the website's text, images, and prices without touching the code.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+All content is managed in:
+`src/config/content.json`
+
+### How to edit:
+1. Open `src/config/content.json`.
+2. Update the values you want to change (e.g., price of a bundle, a paragraph on the about page, or the WhatsApp number).
+3. Save the file and commit the changes to GitHub.
+4. The website will automatically update (if deployed via Render/Vercel with auto-deploy enabled).
+
+### Key Fields:
+- **site**: Global settings like name, logo, and contact info.
+- **metadata**: SEO titles and descriptions for each page.
+- **home**: Text and images for the landing page.
+- **bundles**: List of products, prices, and descriptions.
+- **about**: Philosophy text.
+- **faq**: Questions and answers.
+- **checkout/success**: Text for the ordering flow.

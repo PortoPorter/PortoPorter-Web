@@ -1,28 +1,30 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import content from '@/config/content';
 
 export default function Footer() {
+  const { footer, site } = content;
+
   return (
     <footer className="py-20 bg-porto-blue text-white mt-auto">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12 text-center md:text-left">
         <div>
           <div className="flex items-center gap-3 mb-6 justify-center md:justify-start">
             <Image 
-              src="/assets/images/logo.jpeg" 
-              alt="Porto Porter Logo" 
+              src={site.logo} 
+              alt={`${site.name} Logo`} 
               width={30} 
               height={30} 
               className="rounded-full brightness-0 invert"
             />
-            <h4 className="text-xl font-serif uppercase tracking-tight font-bold">PORTO PORTER</h4>
+            <h4 className="text-xl font-serif uppercase tracking-tight font-bold">{site.name.toUpperCase()}</h4>
           </div>
           <p className="text-blue-100 font-sans leading-relaxed text-xs">
-            We act as your personal curator and concierge, bypassing the tourist traps 
-            to find the authentic heartbeat of Porto. Minimalist, premium, and 100% flight-friendly.
+            {footer.philosophy}
           </p>
         </div>
         <div>
-          <h4 className="text-xs font-sans font-bold uppercase mb-6 tracking-widest text-terracotta">Information</h4>
+          <h4 className="text-xs font-sans font-bold uppercase mb-6 tracking-widest text-terracotta">{footer.links}</h4>
           <ul className="space-y-3 font-sans text-blue-100 text-sm">
             <li><Link href="/bundles" className="hover:text-white transition-colors">The Bundles</Link></li>
             <li><Link href="/about" className="hover:text-white transition-colors">Our Philosophy</Link></li>
@@ -30,18 +32,18 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className="text-xs font-sans font-bold uppercase mb-6 tracking-widest text-terracotta">Contact</h4>
+          <h4 className="text-xs font-sans font-bold uppercase mb-6 tracking-widest text-terracotta">{footer.contact}</h4>
           <p className="text-blue-100 font-sans text-sm leading-loose">
-            Email: hello@portoporter.com<br />
-            WhatsApp: +351 912 345 678<br />
+            Email: {site.email}<br />
+            WhatsApp: {site.whatsappNumber}<br />
             <span className="italic mt-4 block text-blue-200 text-xs">
-              Official AT-Certified Invoice will be sent via email within 24 - 72 hours of delivery.
+              {footer.legal}
             </span>
           </p>
         </div>
       </div>
       <div className="max-w-6xl mx-auto px-6 mt-20 pt-8 border-t border-white/10 text-center text-[10px] text-blue-300 font-sans tracking-widest uppercase">
-        &copy; {new Date().getFullYear()} Porto Porter. Hand-picked in Porto.
+        &copy; {new Date().getFullYear()} {site.name}. Hand-picked in Porto.
       </div>
     </footer>
   );

@@ -1,0 +1,181 @@
+{
+  "site": {
+    "name": "Porto Porter",
+    "logo": "/assets/images/logo.jpeg",
+    "email": "hello@portoporter.com",
+    "whatsappNumber": "+351912345678",
+    "keywords": ["authentic Porto gifts", "Porto concierge delivery", "artisan crafts Porto", "luxury gift bundles Porto", "Porto souvenirs", "flight-friendly gifts"],
+    "colors": {
+      "primary": "#011C3A",
+      "secondary": "#BD6B4C",
+      "background": "#E8D9BD"
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "Porto Porter | Luxury Artisan Concierge",
+      "description": "The best of Porto, hand-picked and delivered to your Airbnb or Hotel. Authentic artisan craft, flight-friendly collections."
+    },
+    "bundles": {
+      "title": "Artisan Bundles | Porto Porter",
+      "description": "Explore our curated collection of flight-friendly Porto artisan gifts. From essential ceramics to ultimate legacy collections."
+    },
+    "about": {
+      "title": "Our Philosophy | Porto Porter",
+      "description": "Learn about Porto Porter's personal shopper philosophy. We curate authentic Porto artisan crafts for luxury travelers."
+    },
+    "faq": {
+      "title": "FAQ | Delivery & Orders | Porto Porter",
+      "description": "Questions about delivery times, flight-friendly gifts, and invoices? Find all answers in our Porto Porter FAQ."
+    },
+    "checkout": {
+      "title": "Checkout | Porto Porter",
+      "description": "Finalize your order for authentic Porto artisan bundles."
+    },
+    "success": {
+      "title": "Obrigado! | Porto Porter",
+      "description": "Your order has been placed successfully."
+    }
+  },
+  "home": {
+    "urgentBanner": "Order by 6:00 PM for delivery tomorrow after 2:00 PM.",
+    "hero": {
+      "title": "The best of Porto, hand-picked and delivered to your Airbnb or Hotel.",
+      "titleColor": "#E8D9BD",
+      "subtitle": "No tourist traps. Just authentic craft. Purely flight-friendly treasures for the discerning traveler.",
+      "cta": "View Our Bundles",
+      "backgroundImage": "/assets/images/hero-porto.png"
+    },
+    "process": {
+      "title": "How It Works",
+      "steps": [
+        {
+          "icon": "/assets/icons/step-1-pick.png",
+          "title": "Pick your bundle",
+          "description": "Choose between our three tiers of curated Porto excellence."
+        },
+        {
+          "icon": "/assets/icons/step-2-details.png",
+          "title": "Provide your details",
+          "description": "Tell us your accommodation and departure date. We handle the logistics."
+        },
+        {
+          "icon": "/assets/icons/step-3-receive.png",
+          "title": "Receive your gifts",
+          "description": "Your hand-picked treasures arrive at your door tomorrow after 2:00 PM."
+        }
+      ]
+    }
+  },
+  "bundles": {
+    "title": "Our Curated Bundles",
+    "subtitle": "Purely flight-friendly treasures for the discerning traveler.",
+    "constraint": {
+      "title": "No Alcohol Included — 100% Flight-Friendly",
+      "description": "Safe for carry-on or checked luggage. No liquid restrictions exceeded."
+    },
+    "list": [
+      {
+        "id": "gesto",
+        "name": "The Gesto",
+        "subtitle": "The Thoughtful Introduction",
+        "price": 50,
+        "description": "A curated selection of Porto’s essential artisan crafts. Perfect for those looking to take home a piece of the city's soul without the weight. Minimalist in design, premium in quality.",
+        "vibe": "Modern, authentic, essential.",
+        "image": "/assets/images/craft-ceramics.png",
+        "items": ["Hand-painted ceramic tile", "Traditional soap from Claus Porto", "Artisanal notepad"]
+      },
+      {
+        "id": "tradicao",
+        "name": "The Tradição",
+        "subtitle": "The Heritage Collection",
+        "price": 100,
+        "description": "A deeper dive into the textures and traditions of Northern Portugal. This bundle features premium hand-painted ceramics and artisan goods that tell the story of Porto’s enduring craft heritage.",
+        "vibe": "Timeless, handcrafted, sophisticated.",
+        "image": "/assets/images/craft-cork-soap.png",
+        "items": ["Everything in The Gesto", "Premium cork wallet", "Embroidered linen tea towel", "Local honey (100ml)"]
+      },
+      {
+        "id": "legado",
+        "name": "The Legado",
+        "subtitle": "The Ultimate Legacy",
+        "price": 200,
+        "description": "Our most prestigious collection. The Legado represents the pinnacle of Portuguese craftsmanship—heirloom-quality pieces designed to last a lifetime. For the traveler who demands the absolute best of Porto.",
+        "vibe": "Exclusive, heirloom, unparalleled.",
+        "image": "/assets/images/bundle-legado.png",
+        "items": ["Everything in The Tradição", "Hand-woven wool scarf", "Exclusive filigree silver charm", "Hardcover book on Porto artisanry"]
+      }
+    ]
+  },
+  "checkout": {
+    "title": "Checkout",
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "accommodation": "Accommodation Name & Address",
+      "mapsLink": "Google Maps Link",
+      "instructions": "Entry Code or Reception Instructions",
+      "departureDate": "Date of Departure",
+      "submit": "Pay"
+    },
+    "summary": {
+      "title": "Order Summary",
+      "deliveryLabel": "Delivery (Next Day)",
+      "deliveryValue": "Included",
+      "totalLabel": "Total",
+      "guaranteeTitle": "Our Delivery Guarantee",
+      "guaranteeText": "Orders placed before 6:00 PM are delivered tomorrow after 2:00 PM. We will notify you via WhatsApp once delivered."
+    }
+  },
+  "success": {
+    "title": "Obrigado!",
+    "subtitle": "Your order has been placed successfully.",
+    "orderDetailsTitle": "Order Details",
+    "bundleLabel": "Bundle",
+    "deliveryStatusLabel": "Delivery Status",
+    "deliveryStatusValue": "Scheduled for Tomorrow",
+    "downloadCta": "Download Order Summary (PDF)",
+    "confirmationEmailText": "An email confirmation with your order summary has been sent to your inbox.",
+    "returnHomeCta": "Return to Home"
+  },
+  "about": {
+    "title": "The Personal Shopper Philosophy",
+    "quote": "In a city as rich in heritage as Porto, it's easy to get lost in the noise of mass-produced souvenirs.",
+    "paragraphs": [
+      "At Porto Porter, we act as your personal curator and concierge. We bypass the tourist traps to find the authentic heartbeat of the city—the artisan workshops, the family-owned studios, and the master craftspeople who define Portuguese culture.",
+      "Our mission is simple: to bring the true soul of Porto directly to your door, allowing you to spend your time experiencing the city while we handle the discovery and delivery of its finest treasures. Minimalist, premium, and 100% flight-friendly."
+    ],
+    "cta": "Explore Our Curation"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "list": [
+      {
+        "q": "When will I receive my order?",
+        "a": "Order by 6:00 PM today for delivery tomorrow after 2:00 PM. We deliver directly to your Airbnb or Hotel reception."
+      },
+      {
+        "q": "Where do you deliver?",
+        "a": "We deliver to all major Hotels and Airbnb accommodations within the Porto city center and Gaia riverside area."
+      },
+      {
+        "q": "Is there alcohol in the bundles?",
+        "a": "No. To ensure all our bundles are 100% flight-friendly and hassle-free for international travel, we do not include alcohol. Our focus is purely on high-end artisan crafts."
+      },
+      {
+        "q": "Will I receive an invoice?",
+        "a": "Yes. An automatic order summary is sent immediately. An official AT-Certified Invoice will be sent via email within 24 - 72 hours of delivery."
+      },
+      {
+        "q": "How do I contact my Porter?",
+        "a": "Click the floating WhatsApp button on our site to chat directly with us about your order or special requests."
+      }
+    ]
+  },
+  "footer": {
+    "philosophy": "Hand-picked artisan treasures delivered to your accommodation. No tourist traps. Just authentic Porto craft.",
+    "contact": "Contact",
+    "links": "Quick Links",
+    "legal": "Official AT-Certified Invoice will be sent via email within 24 - 72 hours of delivery."
+  }
+}
