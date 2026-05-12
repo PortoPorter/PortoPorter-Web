@@ -57,7 +57,7 @@
         {
           "icon": "/assets/icons/step-2-details.png",
           "title": "Provide your details",
-          "description": "Tell us your location and departure date. We handle the logistics."
+          "description": "Tell us where you are and your departure date. We handle the logistics."
         },
         {
           "icon": "/assets/icons/step-3-receive.png",
@@ -112,9 +112,9 @@
     "form": {
       "fullName": "Full Name",
       "email": "Email Address",
-      "location": "Your location Address",
+      "location": "Delivery Address in Porto",
       "mapsLink": "Google Maps Link",
-      "instructions": "Entry Code or Reception Instructions",
+      "instructions": "Specific Instructions (Entry Code, etc.)",
       "departureDate": "Date of Departure",
       "submit": "Pay"
     },
@@ -152,11 +152,11 @@
     "list": [
       {
         "q": "When will I receive my order?",
-        "a": "Order by 3:00 PM today for next day delivery after 3:00 PM. We deliver directly to you."
+        "a": "Order by 3:00 PM today for next day delivery after 3:00 PM. We deliver directly to wherever you are in Porto city."
       },
       {
         "q": "Where do you deliver?",
-        "a": "We deliver to your location or all major accommodations within the Porto city center and Gaia riverside area."
+        "a": "We deliver to wherever you are within the Porto city center and Gaia riverside area."
       },
       {
         "q": "Is there alcohol in the bundles?",
@@ -173,7 +173,7 @@
     ]
   },
   "footer": {
-    "philosophy": "Hand-picked artisan treasures delivered to you. No tourist traps. Just authentic Porto craft.",
+    "philosophy": "Hand-picked artisan treasures delivered to wherever you are in Porto. No tourist traps. Just authentic Porto craft.",
     "contact": "Contact",
     "links": "Quick Links",
     "legal": "Official AT-Certified Invoice will be sent via email within 24 - 72 hours of delivery."
