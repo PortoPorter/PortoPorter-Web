@@ -14,7 +14,7 @@
   "metadata": {
     "home": {
       "title": "Porto Porter | Luxury Artisan Concierge",
-      "description": "The best of Porto, hand-picked and delivered to your Airbnb or Hotel. Authentic artisan craft, flight-friendly collections."
+      "description": "The best of Porto, hand-picked and delivered to you. Authentic artisan craft, flight-friendly collections."
     },
     "bundles": {
       "title": "Artisan Bundles | Porto Porter",
@@ -38,9 +38,9 @@
     }
   },
   "home": {
-    "urgentBanner": "Order by 6:00 PM for delivery tomorrow after 2:00 PM.",
+    "urgentBanner": "Order by 3:00 PM for delivery next day after 3:00 PM.",
     "hero": {
-      "title": "The best of Porto, hand-picked and delivered to your Airbnb or Hotel.",
+      "title": "The best of Porto, hand-picked and delivered to you.",
       "titleColor": "#E8D9BD",
       "subtitle": "No tourist traps. Just authentic craft. Purely flight-friendly treasures for the discerning traveler.",
       "cta": "View Our Bundles",
@@ -112,7 +112,7 @@
     "form": {
       "fullName": "Full Name",
       "email": "Email Address",
-      "accommodation": "Accommodation Name & Address",
+      "location": "Your location Address",
       "mapsLink": "Google Maps Link",
       "instructions": "Entry Code or Reception Instructions",
       "departureDate": "Date of Departure",
@@ -152,11 +152,11 @@
     "list": [
       {
         "q": "When will I receive my order?",
-        "a": "Order by 6:00 PM today for delivery tomorrow after 2:00 PM. We deliver directly to your Airbnb or Hotel reception."
+        "a": "Order by 3:00 PM today for next day delivery after 3:00 PM. We deliver directly to you or Hotel reception."
       },
       {
         "q": "Where do you deliver?",
-        "a": "We deliver to all major Hotels and Airbnb accommodations within the Porto city center and Gaia riverside area."
+        "a": "We deliver to your location or all major Hotels and Airbnb accommodations within the Porto city center and Gaia riverside area."
       },
       {
         "q": "Is there alcohol in the bundles?",
@@ -164,7 +164,7 @@
       },
       {
         "q": "Will I receive an invoice?",
-        "a": "Yes. An automatic order summary is sent immediately. An official AT-Certified Invoice will be sent via email within 24 - 72 hours of delivery."
+        "a": "Yes. An automatic order summary is sent immediately. An official AT-Certified Invoice will be sent via email within 24 - 72 hours of delivery depending on sales demand."
       },
       {
         "q": "How do I contact my Porter?",
@@ -173,7 +173,7 @@
     ]
   },
   "footer": {
-    "philosophy": "Hand-picked artisan treasures delivered to your accommodation. No tourist traps. Just authentic Porto craft.",
+    "philosophy": "Hand-picked artisan treasures delivered to you. No tourist traps. Just authentic Porto craft.",
     "contact": "Contact",
     "links": "Quick Links",
     "legal": "Official AT-Certified Invoice will be sent via email within 24 - 72 hours of delivery."
