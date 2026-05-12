@@ -7,7 +7,7 @@
     "keywords": ["authentic Porto gifts", "Porto concierge delivery", "artisan crafts Porto", "luxury gift bundles Porto", "Porto souvenirs", "flight-friendly gifts"],
     "colors": {
       "primary": "#011C3A",
-      "secondary": "#BD6B4C",
+      "secondary": "#C19A6B",
       "background": "#E8D9BD"
     }
   },
@@ -57,12 +57,12 @@
         {
           "icon": "/assets/icons/step-2-details.png",
           "title": "Provide your details",
-          "description": "Tell us your accommodation and departure date. We handle the logistics."
+          "description": "Tell us your location and departure date. We handle the logistics."
         },
         {
           "icon": "/assets/icons/step-3-receive.png",
           "title": "Receive your gifts",
-          "description": "Your hand-picked treasures arrive at your door tomorrow after 2:00 PM."
+          "description": "Your hand-picked treasures arrive at your door next day after 3:00 PM."
         }
       ]
     }
@@ -124,7 +124,7 @@
       "deliveryValue": "Included",
       "totalLabel": "Total",
       "guaranteeTitle": "Our Delivery Guarantee",
-      "guaranteeText": "Orders placed before 6:00 PM are delivered tomorrow after 2:00 PM. We will notify you via WhatsApp once delivered."
+      "guaranteeText": "Orders placed before 3:00 PM are delivered next day after 3:00 PM. We will notify you via WhatsApp once delivered."
     }
   },
   "success": {
@@ -133,7 +133,7 @@
     "orderDetailsTitle": "Order Details",
     "bundleLabel": "Bundle",
     "deliveryStatusLabel": "Delivery Status",
-    "deliveryStatusValue": "Scheduled for Tomorrow",
+    "deliveryStatusValue": "Scheduled for Next Day",
     "downloadCta": "Download Order Summary (PDF)",
     "confirmationEmailText": "An email confirmation with your order summary has been sent to your inbox.",
     "returnHomeCta": "Return to Home"
@@ -152,11 +152,11 @@
     "list": [
       {
         "q": "When will I receive my order?",
-        "a": "Order by 3:00 PM today for next day delivery after 3:00 PM. We deliver directly to you or Hotel reception."
+        "a": "Order by 3:00 PM today for next day delivery after 3:00 PM. We deliver directly to you."
       },
       {
         "q": "Where do you deliver?",
-        "a": "We deliver to your location or all major Hotels and Airbnb accommodations within the Porto city center and Gaia riverside area."
+        "a": "We deliver to your location or all major accommodations within the Porto city center and Gaia riverside area."
       },
       {
         "q": "Is there alcohol in the bundles?",
