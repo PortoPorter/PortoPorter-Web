@@ -17,13 +17,15 @@
   --font-serif: var(--font-cormorant), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-body {
-  background-color: var(--cork-cream);
-  color: var(--text-charcoal);
-  font-family: var(--font-inter), sans-serif;
-}
+@layer base {
+  body {
+    background-color: var(--cork-cream);
+    color: var(--text-charcoal);
+    font-family: var(--font-inter), sans-serif;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-cormorant), serif;
-  color: var(--porto-blue);
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-cormorant), serif;
+    color: var(--porto-blue);
+  }
 }

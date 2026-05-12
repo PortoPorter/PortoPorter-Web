@@ -5,7 +5,7 @@ export default function TheHook() {
   const { hero } = content.home;
 
   return (
-    <section className="relative h-[600px] flex items-center justify-center text-center text-white overflow-hidden font-sans">
+    <section className="relative h-[600px] flex items-center justify-center text-center overflow-hidden font-sans">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
@@ -17,7 +17,7 @@ export default function TheHook() {
       <div className="relative z-10 px-6 max-w-4xl mx-auto">
         <h1 
           className="text-4xl md:text-6xl font-serif mb-6 leading-tight"
-          style={{ color: hero.titleColor || '#E8D9BD' }}
+          style={{ color: hero.titleColor }}
         >
           {hero.title}
         </h1>
