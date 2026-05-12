@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --porto-blue: #011C3A;
+  --burnt-terracotta: #BD6B4C;
+  --cork-cream: #E8D9BD;
+  --text-charcoal: #333333;
+}
+
+@theme inline {
+  --color-background: var(--cork-cream);
+  --color-foreground: var(--text-charcoal);
+  --color-porto-blue: var(--porto-blue);
+  --color-terracotta: var(--burnt-terracotta);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: var(--cork-cream);
+  color: var(--text-charcoal);
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-cormorant), serif;
+  color: var(--porto-blue);
+}
