@@ -158,7 +158,7 @@
     "list": [
       {
         "q": "When will I receive my order?",
-        "a": "Order by 3:00 PM today for next day delivery after 3:00 PM. We deliver directly to you anywhere in the Porto city centre."
+        "a": "Order by 3:00 PM today for next day delivery after 3:00 PM. We deliver directly to you anywhere in the Porto city centre or Gaia riverside area."
       },
       {
         "q": "Where do you deliver?",
@@ -179,7 +179,7 @@
     ]
   },
   "footer": {
-    "philosophy": "Hand-picked artisan treasures delivered to you in the Porto city centre. No tourist traps. Just authentic Porto craft.",
+    "philosophy": "Hand-picked artisan treasures delivered to you in the Porto city centre or Gaia riverside. No tourist traps. Just authentic Porto craft.",
     "contact": "Contact",
     "links": "Quick Links",
     "legal": "Official AT-Certified Invoice will be sent via email within 24 - 72 hours of delivery."

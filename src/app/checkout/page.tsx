@@ -40,7 +40,7 @@ function CheckoutContent() {
     await new Promise((resolve) => setTimeout(resolve, 2000));
     
     // Redirect to success page
-    router.push(`/success?orderId=${Math.floor(Math.random() * 100000)}&bundle=${bundleId}`);
+    router.push(`/success?orderId=${Math.floor(Math.random() * 100000)}&bundle=${bundleId}&total=${totalPrice}`);
   };
 
   return (

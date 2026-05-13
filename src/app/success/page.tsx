@@ -12,6 +12,7 @@ function SuccessContent() {
   const searchParams = useSearchParams();
   const orderId = searchParams.get('orderId');
   const bundleId = searchParams.get('bundle');
+  const total = searchParams.get('total');
   const [isDownloading, setIsDownloading] = useState(false);
   const { success } = content;
 
@@ -45,6 +46,10 @@ function SuccessContent() {
           <div className="flex justify-between">
             <span className="text-foreground/40 uppercase tracking-widest text-[10px] font-bold">{success.deliveryStatusLabel}</span>
             <span className="text-terracotta font-bold">{success.deliveryStatusValue}</span>
+          </div>
+          <div className="flex justify-between border-t border-background pt-4 mt-4">
+            <span className="text-foreground/40 uppercase tracking-widest text-[10px] font-bold">Total Paid</span>
+            <span className="text-porto-blue font-bold">€{total}</span>
           </div>
         </div>
         
