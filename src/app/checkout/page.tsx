@@ -13,11 +13,13 @@ function CheckoutContent() {
   
   const bundleId = searchParams.get('bundle') || 'gesto';
   const bundle = bundles.list.find(b => b.id === bundleId) || bundles.list[0];
+  const deliveryFee = (checkout.summary as any).deliveryFee || 0;
+  const totalPrice = bundle.price + deliveryFee;
 
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
-    accommodation: '',
+    location: '',
     mapsLink: '',
     instructions: '',
     departureDate: '',
@@ -56,7 +58,7 @@ function CheckoutContent() {
               value={formData.fullName}
               onChange={handleChange}
               className="w-full border-b border-porto-blue/10 bg-transparent py-2 focus:border-terracotta outline-none font-sans transition-colors"
-              placeholder="Your full name"
+              placeholder={checkout.form.fullNamePlaceholder}
             />
           </div>
           
@@ -69,20 +71,20 @@ function CheckoutContent() {
               value={formData.email}
               onChange={handleChange}
               className="w-full border-b border-porto-blue/10 bg-transparent py-2 focus:border-terracotta outline-none font-sans transition-colors"
-              placeholder="your@email.com"
+              placeholder={checkout.form.emailPlaceholder}
             />
           </div>
 
           <div>
-            <label className="block text-[10px] font-sans font-bold uppercase tracking-widest text-terracotta mb-2">{checkout.form.accommodation}</label>
+            <label className="block text-[10px] font-sans font-bold uppercase tracking-widest text-terracotta mb-2">{checkout.form.location}</label>
             <input 
               required
               type="text" 
-              name="accommodation"
-              value={formData.accommodation}
+              name="location"
+              value={formData.location}
               onChange={handleChange}
               className="w-full border-b border-porto-blue/10 bg-transparent py-2 focus:border-terracotta outline-none font-sans transition-colors"
-              placeholder="Hotel name or Airbnb street address"
+              placeholder={checkout.form.locationPlaceholder}
             />
           </div>
 
@@ -95,7 +97,7 @@ function CheckoutContent() {
               value={formData.mapsLink}
               onChange={handleChange}
               className="w-full border-b border-porto-blue/10 bg-transparent py-2 focus:border-terracotta outline-none font-sans transition-colors"
-              placeholder="https://maps.google.com/..."
+              placeholder={checkout.form.mapsLinkPlaceholder}
             />
           </div>
 
@@ -108,7 +110,7 @@ function CheckoutContent() {
               onChange={handleChange}
               rows={3}
               className="w-full border border-porto-blue/10 bg-white/50 p-3 focus:border-terracotta outline-none font-sans resize-none transition-colors"
-              placeholder="Instructions for the porter (e.g., door code, leave at reception, etc.)"
+              placeholder={checkout.form.instructionsPlaceholder}
             ></textarea>
           </div>
 
@@ -129,7 +131,7 @@ function CheckoutContent() {
             type="submit"
             className="w-full bg-terracotta text-white py-5 font-sans font-bold uppercase tracking-widest hover:bg-porto-blue transition-all disabled:bg-gray-300 shadow-md"
           >
-            {isSubmitting ? 'Processing...' : `${checkout.form.submit} €${bundle.price}`}
+            {isSubmitting ? 'Processing...' : `${checkout.form.submit} €${totalPrice}`}
           </button>
         </form>
       </div>
@@ -146,7 +148,7 @@ function CheckoutContent() {
         </div>
         <div className="flex justify-between items-center pt-2">
           <span className="font-serif text-lg text-porto-blue">{checkout.summary.totalLabel}</span>
-          <span className="font-sans text-2xl font-bold text-terracotta">€{bundle.price}</span>
+          <span className="font-sans text-2xl font-bold text-terracotta">€{totalPrice}</span>
         </div>
         
         <div className="mt-8 p-4 bg-background/50 text-[10px] text-foreground/60 font-sans leading-relaxed border-l-2 border-terracotta">

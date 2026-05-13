@@ -22,7 +22,7 @@ export default function AboutPage() {
         
         <div className="bg-white p-10 md:p-16 shadow-sm border border-gray-50 font-sans leading-loose text-gray-700 space-y-8">
           <p className="text-xl md:text-2xl font-serif italic text-porto-blue leading-relaxed">
-            "{about.quote}"
+            &ldquo;{about.quote}&rdquo;
           </p>
           
           {about.paragraphs.map((para, index) => (
