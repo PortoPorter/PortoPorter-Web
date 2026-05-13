@@ -57,7 +57,7 @@
         {
           "icon": "/assets/icons/step-2-details.png",
           "title": "Provide your details",
-          "description": "Tell us where you are in the Porto city centre—hotel, apartment, or a public meet-up spot."
+          "description": "Tell us where you are in the Porto city centre or Gaia riverside—your address or a public meet-up spot."
         },
         {
           "icon": "/assets/icons/step-3-receive.png",
@@ -114,8 +114,8 @@
       "fullNamePlaceholder": "Your full name",
       "email": "Email Address",
       "emailPlaceholder": "your@email.com",
-      "location": "Delivery Location (Address or Meet-up Point)",
-      "locationPlaceholder": "Address, hotel name, or specific meet-up point",
+      "location": "Delivery Location (Porto City Centre or Gaia Riverside)",
+      "locationPlaceholder": "Address or specific meet-up point",
       "mapsLink": "Google Maps Link (Optional)",
       "mapsLinkPlaceholder": "https://maps.google.com/...",
       "instructions": "Meeting Instructions (e.g., 'Meet at the fountain' or Entry Code)",
@@ -149,7 +149,7 @@
     "quote": "In a city as rich in heritage as Porto, it's easy to get lost in the noise of mass-produced souvenirs.",
     "paragraphs": [
       "At Porto Porter, we act as your personal curator and concierge. We bypass the tourist traps to find the authentic heartbeat of the city—the artisan workshops, the family-owned studios, and the master craftspeople who define Portuguese culture.",
-      "Our mission is simple: to bring the true soul of Porto directly to you. Whether you're at a hotel, a cafe, or exploring the city centre, we handle the discovery and the delivery of its finest treasures. Minimalist, premium, and 100% flight-friendly."
+      "Our mission is simple: to bring the true soul of Porto directly to you. Whether you're at a cafe, a shop, or exploring the city centre, we handle the discovery and the delivery of its finest treasures. Minimalist, premium, and 100% flight-friendly."
     ],
     "cta": "Explore Our Curation"
   },
@@ -162,7 +162,7 @@
       },
       {
         "q": "Where do you deliver?",
-        "a": "We deliver specifically within the Porto city centre and the Gaia riverside area. This includes hotels, Airbnbs, or public meet-up points like a cafe or shop if you're on the move. A delivery fee of €10 applies to all orders."
+        "a": "We deliver specifically within the Porto city centre and the Gaia riverside area. This includes any address or public meet-up points like a cafe or shop if you're on the move. A delivery fee of €10 applies to all orders."
       },
       {
         "q": "Is there alcohol in the bundles?",
