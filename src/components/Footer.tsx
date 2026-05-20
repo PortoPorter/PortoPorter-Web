@@ -13,8 +13,8 @@ export default function Footer() {
             <Image 
               src={site.logo} 
               alt={`${site.name} Logo`} 
-              width={30} 
-              height={30} 
+              width={50} 
+              height={50} 
               className="rounded-full brightness-0 invert"
             />
             <h4 className="text-xl font-serif uppercase tracking-tight font-bold">{site.name.toUpperCase()}</h4>
