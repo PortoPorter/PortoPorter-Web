@@ -11,8 +11,8 @@ export default function Navbar() {
         <Image 
           src={site.logo} 
           alt={`${site.name} Logo`} 
-          width={60} 
-          height={60} 
+          width={80} 
+          height={80} 
           className="rounded-full shadow-md"
         />
         <span className="text-2xl font-serif font-bold text-porto-blue tracking-tight">
