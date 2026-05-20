@@ -42,7 +42,7 @@
     "hero": {
       "title": "The best of Porto, hand-picked and delivered to you.",
       "titleColor": "#E8D9BD",
-      "subtitle": "No tourist traps. Just authentic craft. Purely flight-friendly treasures for the discerning traveler.",
+      "subtitle": "No tourist traps. Just authentic craft.\nPurely flight-friendly treasures for the discerning traveler.",
       "cta": "View Our Bundles",
       "backgroundImage": "/assets/images/hero-porto.png"
     },
