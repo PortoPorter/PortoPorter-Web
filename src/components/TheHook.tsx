@@ -21,8 +21,11 @@ export default function TheHook() {
         >
           {hero.title}
         </h1>
-        <p className="text-xl md:text-2xl mb-10 text-terracotta font-bold max-w-2xl mx-auto drop-shadow-sm">
+        <p className="text-xl md:text-2xl mb-3 text-terracotta font-bold max-w-2xl mx-auto drop-shadow-sm">
           {hero.subtitle}
+        </p>
+        <p className="text-xl md:text-2xl mb-10 text-terracotta font-bold max-w-2xl mx-auto drop-shadow-sm">
+          {hero.subtitleLine2}
         </p>
         <Link 
           href="/bundles" 
